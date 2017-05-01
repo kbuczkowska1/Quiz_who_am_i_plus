@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size_text_sound_button">20sp</dimen>
+    <dimen name="size_back_button">16sp</dimen>
+    <dimen name="size_text_who_am_i">34sp</dimen>
+    <dimen name="size_text_score">34sp</dimen>
+    <dimen name="size_text_score_button">16sp</dimen>
+    <dimen name="size_text_play_again_button">16sp</dimen>
+    <dimen name="size_text_button">20dp</dimen>
+</resources>

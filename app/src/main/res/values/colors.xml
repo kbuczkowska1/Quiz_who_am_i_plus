@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="radio_button">#f39d14</color>
+    <color name="color_text_orange">#f39d14</color>
+    <color name="color_background_view">#f39d14</color>
+    <color name="background_orange">#f39d14</color>
+    <color name="check_box">#f39d14</color>
+</resources>

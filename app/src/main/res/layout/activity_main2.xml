@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.example.android.quiz.Main2Activity">
+
+        <TextView
+            style="@style/who_am_i"
+            android:text="@string/who_am_i"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_who_am_i" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="center"
+            android:src="@drawable/cat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/dog_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/cat_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/pig_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/sheep_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/dog"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play1"
+                    android:text="@string/Dog"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/cat"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play2"
+                    android:text="@string/Cat"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/pig"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play3"
+                    android:text="@string/pig"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/sheep"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play4"
+                    android:text="@string/Sheep"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Back"
+            android:text="@string/back"
+            android:textSize="@dimen/size_back_button" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="#f39d14" />
+
+        <TextView
+            style="@style/who_am_i"
+            android:layout_marginTop="40dp"
+            android:text="@string/who_am_i"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_who_am_i" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/dog" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/dog2_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/cat2_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/pig2_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/sheep2_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/dog2"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play1"
+                    android:text="@string/Dog"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/cat2"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play2"
+                    android:text="@string/Cat"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/pig2"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play3"
+                    android:text="@string/pig"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/sheep2"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play4"
+                    android:text="@string/Sheep"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/color_background_view" />
+
+        <TextView
+            style="@style/who_am_i"
+            android:layout_marginTop="40dp"
+            android:text="@string/who_am_i"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_who_am_i" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:src="@drawable/pig2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/dog3_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/cat3_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/pig3_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/sheep3_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/dog3"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play1"
+                    android:text="@string/Dog"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/cat3"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play2"
+                    android:text="@string/Cat"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/pig3"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play3"
+                    android:text="@string/pig"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/sheep3"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play4"
+                    android:text="@string/Sheep"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/color_background_view" />
+
+        <TextView
+            style="@style/who_am_i"
+            android:layout_marginTop="40dp"
+            android:text="@string/who_am_i"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_who_am_i" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:src="@drawable/sheep" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/dog4_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/cat4_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/pig4_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/sheep4_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:buttonTint="@color/radio_button" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/dog4"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play1"
+                    android:text="@string/Dog"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/cat4"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play2"
+                    android:text="@string/Cat"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/pig4"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play3"
+                    android:text="@string/pig"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+                <Button
+                    android:id="@+id/sheep4"
+                    style="@style/CustomButtonStyle1"
+                    android:onClick="play4"
+                    android:text="@string/Sheep"
+                    android:textSize="@dimen/size_text_sound_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/color_background_view" />
+
+        <TextView
+            style="@style/who_am_i"
+            android:layout_marginTop="40dp"
+            android:text="@string/what_i_like"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_who_am_i" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/rabbit" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    style="@style/ChackBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/check_box" />
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    style="@style/ChackBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/check_box" />
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    style="@style/ChackBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/check_box" />
+
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    style="@style/ChackBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/check_box" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/background_orange"
+                    android:text="@string/Carrot"
+                    android:textSize="@dimen/size_text_button" />
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/background_orange"
+                    android:text="@string/milk"
+                    android:textSize="@dimen/size_text_button" />
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/background_orange"
+                    android:text="@string/grass"
+                    android:textSize="@dimen/size_text_button" />
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:background="@color/background_orange"
+                    android:text="@string/meat"
+                    android:textSize="@dimen/size_text_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/color_background_view" />
+
+        <TextView
+            style="@style/who_am_i"
+            android:layout_marginTop="40dp"
+            android:text="@string/my_name_is"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_who_am_i" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/cow" />
+
+        <EditText
+            android:id="@+id/cow"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/color_background_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/check_your_score"
+            android:textColor="@color/color_text_orange"
+            android:textSize="@dimen/size_text_score"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/score"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="score"
+            android:padding="20dp"
+            android:text="@string/score"
+            android:textSize="@dimen/size_text_score_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:onClick="playAgain"
+            android:padding="20dp"
+            android:text="@string/play"
+            android:textSize="@dimen/size_text_play_again_button"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

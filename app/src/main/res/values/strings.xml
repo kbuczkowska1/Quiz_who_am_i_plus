@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="start">START</string>
+    <string name="layout">layout</string>
+    <string name="pig">pig</string>
+    <string name="Sheep">sheep</string>
+    <string name="NEXT">NEXT</string>
+    <string name="Cat">cat</string>
+    <string name="Dog">dog</string>
+    <string name="who_am_i">Who am I ?</string>
+    <string name="back">BACK</string>
+    <string name="exit">EXIT</string>
+    <string name="play">PLAY AGAIN</string>
+    <string name="check_your_score">Check your score:</string>
+    <string name="score">SCORE</string>
+    <string name="resultFinal">Your Final Result is: </string>
+    <string name="lowResult"><allCaps>You Need Practise!</allCaps></string>
+    <string name="medResult"><allCaps>Not Too Bad. Work Harder To Improve!</allCaps></string>
+    <string name="almostResult"><allCaps>Almost There!</allCaps></string>
+    <string name="wellDoneResult"><allCaps>Well done!"</allCaps></string>
+    <string name="zero"><allCaps>Tick Yours answers </allCaps></string>
+    <string name="Carrot">CARROT</string>
+    <string name="milk">MILK</string>
+    <string name="grass">GRASS</string>
+    <string name="meat">MEAT</string>
+    <string name="what_i_like">WHAT I LIKE ?</string>
+    <string name="my_name_is">MY NAME IS ?</string>
+    <string name="name">name</string>
+
+</resources>
